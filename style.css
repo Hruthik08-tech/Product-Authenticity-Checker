@@ -1,0 +1,98 @@
+.header_container{
+    background-color: hsl(0, 15%, 81%);
+    padding: 30px;
+    text-align: center;
+}
+
+
+
+#h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.8em;
+    font-weight: 600;
+    color: hsl(210, 29%, 24%);
+
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin: 0;
+    position: relative;
+    display: inline-block; /* To allow pseudo-elements to align correctly */
+}
+
+#h1::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: hsl(204, 70%, 53%);
+    margin: 10px auto 0 auto; /* Center the underline */
+}
+
+.buttons {
+    text-align: left;
+}
+
+#b1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+
+    padding: 10px 20px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 10px;
+
+    transition: background-color o.3s ease, transform o.1s ease;
+}
+
+.item_container{
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+
+    background-color: hsl(0, 0%, 97%);
+    display: flex;
+
+
+}
+
+#h2 {
+    margin: 10px;
+
+
+}
+
+#product_container {
+    background-color: hsl(0, 0%, 97%);
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;   /* optional: keeps layout neat */
+}
+
+.product_image{
+    background-color: hsl(0, 9%, 70%);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    display: inline-block;
+
+    /* Let box auto-adjust height & width */
+    width: fit-content;
+    height: fit-content;
+
+    /* Center the image inside */
+    text-align: center;
+
+
+}
+
+.product_name {
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+
+

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Authenticity Checker </title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+
+    <header>
+        <div class = "header_container">
+            <h1 id = "h1"> Authenticity Checker </h1>
+        <div class = "buttons">
+            <button id = "b1" onclick = "loadAndColorProducts()"> Start Scan </button>
+        </div>
+        </div>
+    </header>
+
+    <main>
+        <div class = "item_container">
+            <h2 id = "h2"> Cosmetic Products </h2>
+        </div>
+        <div id = "product_container">
+            <span class = "product_image" id = "p1" onclick = "openProductDetails('p1')">
+                <img src = "Images/product1.png" height="200px" width="200px" imageid = "p1">
+                <p class = "product_name"> Lakme Face Cream </p>
+            </span>
+
+            <span class = "product_image" id = "p2" onclick = "openProductDetails('p2')">
+                <img src = "Images/product2.png" height="200px" width="200px" imageid = "p2">
+                <p class = "product_name">Face Polish </p>
+            </span>
+
+            <span class = "product_image" id = "p3" onclick = "openProductDetails('p3')">
+                <img src = "Images/product3.png" height = "200px" width = "200px" imageid = "p3">
+                <p class = "product_name"> Face Scanda</p>
+            </span>
+
+            <span class = "product_image" id = "p4" onclick = "openProductDetails('p4')">
+                <img src = "Images/product4.png" height = "200px" width = "200px" imageid = "p4">
+                <p class = "product_name"> Herbal Neem Face Wash </p>
+            </span>
+
+            <span class = "product_image" id = "p5" onclick = "openProductDetails('p5')">
+                <img src = "Images/product5.png"  height = "200px" width = "200px" imageid = "p5">
+                <p class = "product_name"> Indulekha Hair Shampoo </p>
+            </span>
+
+            
+            <span class = "product_image" id = "p6" onclick = "openProductDetails('p6')">
+                <img src = "Images/product6.png"  height = "200px" width = "200px" imageid = "p6">
+                <p class = "product_name"> Dove Beauty Bar </p>
+            </span>
+
+            <span class = "product_image" id = "p7" onclick = "openProductDetails('p7')">
+                <img src = "Images/product7.png"  height = "200px" width = "200px" imageid = "p7">
+                <p class = "product_name"> CeraVe Cleanser </p>
+            </span>
+
+            <span class = "product_image" id = "p8" onclick = "openProductDetails('p8')">
+                <img src = "Images/product8.png"  height = "200px" width = "200px" imageid = "p8">
+                <p class = "product_name"> Vasline Light Highdrate </p>
+            </span>
+
+            <span class = "product_image" id = "p9" onclick = "openProductDetails('p9')">
+                <img src = "Images/product9.png"  height = "200px" width = "200px" imageid = "p9">
+                <p class = "product_name"> Nivea Cream </p>
+            </span>
+
+
+
+        
+        </div>
+    </main>
+
+    <script src = "index.js"> </script>
+    <script src = "productDisplay.js"> </script>
+    
+</body>
+</html>

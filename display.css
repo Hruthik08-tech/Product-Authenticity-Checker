@@ -1,0 +1,127 @@
+.header_container{
+    background-color: hsl(0, 15%, 81%);
+    padding: 30px;
+    text-align: center;
+}
+
+#h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.8em;
+    font-weight: 600;
+    color: hsl(210, 29%, 24%);
+
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin: 0;
+    position: relative;
+    display: inline-block; /* To allow pseudo-elements to align correctly */
+}
+
+#h1::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: hsl(204, 70%, 53%);
+    margin: 10px auto 0 auto; /* Center the underline */
+}
+
+#productinfo {
+    background-color: hsl(0, 0%, 97%);
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+#product_name {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8em;
+    font-weight: 300;
+
+}
+
+/* Left section */
+.left_section {
+    text-align: center;
+}
+
+.left_section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.left_section img {
+    width: 400px;
+    height: 400px;
+    border-radius: 12px;
+    border: 5px solid #d9c9c9;
+    margin-bottom: 20px;
+}
+
+/* Price & Claim box */
+.info_box {
+    background: #f8f8f8;
+    padding: 18px;
+    border-radius: 12px;
+    text-align: left;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    margin: 10px;
+    
+}
+
+.info_box p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+/* Right section */
+.right_section h3 {
+    font-size: 22px;
+    color: #444;
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+
+
+
+#price, #claim {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #444;
+}
+
+
+
+/* Ingredient list */
+#ing_table {
+    list-style: none;
+    padding: 0;
+    max-height: 450px;
+    overflow-y: auto;
+}
+
+#ing_table li {
+    background: #eef0f3;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #333;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    transition: 0.15s;
+}
+
+#ing_table li:hover {
+    background: #e0e0e0;
+    transform: translateX(4px);
+}
+
+.footer_container{
+    background-color: hsl(0, 15%, 81%);
+    padding: 30px;
+    text-align: center;
+}
